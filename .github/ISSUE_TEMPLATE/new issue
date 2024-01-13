@@ -1,0 +1,40 @@
+name: Issues - Open new issue
+description: Open a new issue for any updates in feature or enhancement in UI
+labels: ['type: enhancement', 'status: waiting triage']
+body:
+  - type: markdown
+    attributes:
+      value: 'NOTE: Read contributing guidelines efore contributing'
+  - type: markdown
+    attributes:
+      value: If you want any big issue to be solved or want to change a feature, open issue and tag the owner of repository
+  - type: textarea
+    attributes:
+      label: Describe the Issue
+      description: A clear and concise description of the issue you encountered.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Affected Page
+      description: Add a link to the coding challenge with the problem.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Please describe the problem and provide the steps to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Recommended fix or suggestions
+      description: A clear and concise description of how you want to update it.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem. You can drag and drop `png`, `jpg`, `gif`, etc. in this box.
+    validations:
+      required: false
